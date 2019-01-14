@@ -2,12 +2,14 @@
 
 require "http"
 require "json"
+require "uri"
 
 module Sixteen
   class Source
-    KEYWORDS = %w{apple appie appid app1e}.freeze
+    KEYWORDS = %w{apple appie appid app1e iforgot}.freeze
     URLSCAN_ENDPOINT = "https://urlscan.io/api/v1/search/?q=PhishTank%20OR%20OpenPhish%20OR%20CertStream-Suspicious?size=5000"
     AYASHIGE_ENDPOINT = "http://ayashige.herokuapp.com/feed"
+    OPENPHISH_ENDPOINT = "https://openphish.com/feed.txt"
 
     def checking_regexp
       @checking_regexp ||= Regexp.new(KEYWORDS.join("|"))
@@ -30,8 +32,21 @@ module Sixteen
       json.map { |item| item["domain"] }
     end
 
+    def openphish_domains
+      res = HTTP.get(OPENPHISH_ENDPOINT)
+      return [] if res.status != 200
+
+      lines = res.body.to_s.lines
+      lines.map(&:chomp).map do |line|
+        uri = URI(line)
+        uri.host
+      rescue StandardError => _
+        nil
+      end.compact
+    end
+
     def domains
-      (urlscan_domains + ayashige_domains).uniq.compact
+      (urlscan_domains + ayashige_domains + openphish_domains).uniq.compact
     end
 
     def phishy_domains

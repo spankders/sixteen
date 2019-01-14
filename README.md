@@ -1,5 +1,7 @@
 # sixteen
 
+A 16shop tracker.
+
 ## install
 
 ```sh
