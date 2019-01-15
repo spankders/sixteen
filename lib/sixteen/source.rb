@@ -6,7 +6,7 @@ require "uri"
 
 module Sixteen
   class Source
-    KEYWORDS = %w{apple appie appid app1e iforgot icloud alerts sigin alert official}.freeze
+    KEYWORDS = %w{apple appl appie appid app1e iforgot icloud alerts sigin alert verification official}.freeze
     URLSCAN_ENDPOINT = "https://urlscan.io/api/v1/search/?q=PhishTank%20OR%20OpenPhish%20OR%20CertStream-Suspicious?size=10000"
     AYASHIGE_ENDPOINT = "http://ayashige.herokuapp.com/feed"
     OPENPHISH_ENDPOINT = "https://openphish.com/feed.txt"
