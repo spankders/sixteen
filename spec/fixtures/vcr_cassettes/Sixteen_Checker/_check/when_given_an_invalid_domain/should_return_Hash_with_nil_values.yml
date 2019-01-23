@@ -5,7 +5,7 @@ http_interactions:
     uri: http://16shop.online/api/setting/get_setting.php
     body:
       encoding: UTF-8
-      string: domain=movelappleid.com
+      string: domain=apple-appleidd.ddns.net
     headers:
       Connection:
       - close
@@ -21,18 +21,20 @@ http_interactions:
       message: OK
     headers:
       Server:
-      - nginx/1.10.3 (Ubuntu)
+      - nginx/1.14.1
       Date:
-      - Sun, 06 Jan 2019 01:33:28 GMT
+      - Wed, 23 Jan 2019 22:02:50 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
       - chunked
       Connection:
       - close
+      Vary:
+      - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"email_result":null,"lock_platform":null,"sender_mail":null,"site_parameter":null,"site_password":null,"site_param_on":null,"site_pass_on":null,"send_login":null,"mix_result":null,"get_photo":null,"get_vbv":null,"get_email":null,"get_bank":null,"double_cc":null,"onetime":null,"encrypt_html":null,"block_host":null,"block_ua":null,"block_iprange":null,"block_isp":null,"block_vpn":null,"theme":null,"letter":null}'
+      string: '{"email_result":null,"lock_platform":null,"sender_mail":null,"site_parameter":null,"site_password":null,"site_param_on":null,"site_pass_on":null,"send_login":null,"mix_result":null,"get_photo":null,"get_vbv":null,"get_email":null,"get_bank":null,"double_cc":null,"onetime":null,"encrypt_html":null,"block_host":null,"block_ua":null,"block_iprange":null,"block_isp":null,"block_vpn":null,"theme":null,"letter":null,"mix_email":null}'
     http_version: 
-  recorded_at: Sun, 06 Jan 2019 01:33:05 GMT
+  recorded_at: Wed, 23 Jan 2019 22:02:50 GMT
 recorded_with: VCR 4.0.0

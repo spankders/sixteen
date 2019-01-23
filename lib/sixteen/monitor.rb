@@ -9,9 +9,10 @@ module Sixteen
 
       domains.each do |domain|
         result = Checker.check(domain)
-        next unless result.dig("email_result")
+        next unless result
 
-        Notifier.notify(domain, JSON.pretty_generate(result))
+        text = result.is_a?(Hash) ? JSON.pretty_generate(result) : result
+        Notifier.notify(domain, text)
       end
     end
   end
