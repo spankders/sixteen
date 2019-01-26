@@ -4,10 +4,6 @@ require "slack/incoming/webhooks"
 
 module Sixteen
   class Notifier
-    def initialize
-      # raise ArgumentError("please set SLACK_WEB_HOOK_URL") unless has_slack_webhoook_url?
-    end
-
     def notifiy(title, text)
       if slack_webhook_url?
         slack = Slack::Incoming::Webhooks.new(slack_webhook_url, channel: slack_channel)
