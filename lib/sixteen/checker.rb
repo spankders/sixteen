@@ -5,14 +5,18 @@ require "json"
 
 module Sixteen
   class Checker
-    SIXTEEN_SHOP_ENDPOINT = "http://16shop.online/api/setting/get_setting.php"
+    SIXTEEN_SHOP_BASE_URLS = ["http://16shop.online", "http://server2.16shop.online"]
 
     def check_setting(domain)
-      res = HTTP.post(SIXTEEN_SHOP_ENDPOINT, form: { domain: domain })
-      return nil if res.code != 200
+      SIXTEEN_SHOP_BASE_URLS.each do |base_url|
+        url = "#{base_url}/api/setting/get_setting.php"
+        res = HTTP.post(url, form: { domain: domain })
+        next if res.code != 200
 
-      json = JSON.parse(res.body.to_s)
-      json.dig("email_result") ? json : nil
+        json = JSON.parse(res.body.to_s)
+        return json if json.dig("email_result")
+      end
+      nil
     end
 
     def check_config(domain)
