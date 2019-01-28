@@ -6,13 +6,14 @@ module Sixteen
   class Monitor
     def self.perform
       domains = Sixteen::Source.phishy_domains
+      websites = domains.map { |domain| Website.new(domain) }
 
-      domains.each do |domain|
-        result = Checker.check(domain)
-        next unless result
+      websites.each do |website|
+        next unless website.sixteen_shop?
 
-        text = result.is_a?(Hash) ? JSON.pretty_generate(result) : result
-        Notifier.notify(domain, text)
+        Notifier.notify(website.domain, website.setting) if website.setting?
+        Notifier.notify(website.domain, website.config) if website.config?
+        Notifier.notify(website.domain, website.admin_panel) if website.admin_panel?
       end
     end
   end
