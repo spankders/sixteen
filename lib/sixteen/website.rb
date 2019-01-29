@@ -21,7 +21,7 @@ module Sixteen
           next if res.code != 200
 
           json = JSON.parse(res.body.to_s)
-          out << JSON.pretty_generage(json) if json.dig("email_result")
+          out << JSON.pretty_generate(json) if json.dig("email_result")
         end
       end.first
     end
