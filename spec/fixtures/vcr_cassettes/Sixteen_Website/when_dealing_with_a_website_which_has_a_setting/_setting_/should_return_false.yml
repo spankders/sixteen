@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://16shop.online/api/setting/get_setting.php
+    body:
+      encoding: UTF-8
+      string: domain=verify.myaccount.apple.id.webapps-servticket.ut1837.com
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - 16shop.online
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.14.1
+      Date:
+      - Tue, 29 Jan 2019 01:26:00 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"email_result":"amunisinyahades@yandex.com","lock_platform":"","sender_mail":"admin@16digit.shop","site_parameter":"\u00a3ervice","site_password":"\u00a3ervice","site_param_on":"on","site_pass_on":"","send_login":"on","mix_result":"","get_photo":"on","get_vbv":"on","get_email":"","get_bank":"on","double_cc":"on","onetime":"on","encrypt_html":"","block_host":"on","block_ua":"on","block_iprange":"on","block_isp":"on","block_vpn":"on","theme":"apple","letter":"verify","mix_email":""}'
+    http_version: 
+  recorded_at: Tue, 29 Jan 2019 01:26:00 GMT
+- request:
+    method: post
+    uri: http://server2.16shop.online/api/setting/get_setting.php
+    body:
+      encoding: UTF-8
+      string: domain=verify.myaccount.apple.id.webapps-servticket.ut1837.com
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - server2.16shop.online
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.14.0 (Ubuntu)
+      Date:
+      - Tue, 29 Jan 2019 01:26:00 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"email_result":"amunisinyahades@yandex.com","lock_platform":"","sender_mail":"admin@16digit.shop","site_parameter":"\u00a3ervice","site_password":"\u00a3ervice","site_param_on":"on","site_pass_on":"","send_login":"on","mix_result":"","get_photo":"on","get_vbv":"on","get_email":"","get_bank":"on","double_cc":"on","onetime":"on","encrypt_html":"","block_host":"on","block_ua":"on","block_iprange":"on","block_isp":"on","block_vpn":"on","theme":"apple","letter":"verify","mix_email":""}'
+    http_version: 
+  recorded_at: Tue, 29 Jan 2019 01:26:00 GMT
+recorded_with: VCR 4.0.0
