@@ -11,9 +11,7 @@ module Sixteen
       websites.each do |website|
         next unless website.sixteen_shop?
 
-        Notifier.notify(website.domain, website.setting) if website.setting?
-        Notifier.notify(website.domain, website.config) if website.config?
-        Notifier.notify(website.domain, website.admin_panel) if website.admin_panel?
+        Notifier.notify(website.domain, website.to_attachments)
       end
     end
   end

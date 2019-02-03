@@ -5,7 +5,7 @@ http_interactions:
     uri: http://16shop.online/api/setting/get_setting.php
     body:
       encoding: UTF-8
-      string: domain=login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com
+      string: domain=apple-support.summarynewupdatereminder.com
     headers:
       Connection:
       - close
@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx/1.14.1
       Date:
-      - Tue, 29 Jan 2019 01:31:51 GMT
+      - Sun, 03 Feb 2019 04:33:18 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -34,15 +34,15 @@ http_interactions:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"email_result":null,"lock_platform":null,"sender_mail":null,"site_parameter":null,"site_password":null,"site_param_on":null,"site_pass_on":null,"send_login":null,"mix_result":null,"get_photo":null,"get_vbv":null,"get_email":null,"get_bank":null,"double_cc":null,"onetime":null,"encrypt_html":null,"block_host":null,"block_ua":null,"block_iprange":null,"block_isp":null,"block_vpn":null,"theme":null,"letter":null,"mix_email":null}'
+      string: '{"email_result":"mail@apple-support.summarynewupdatereminder.com","lock_platform":"","sender_mail":"mail@hotmail.com","site_parameter":"16shop","site_password":"16shop","site_param_on":"","site_pass_on":"on","send_login":"","mix_result":"","get_photo":"","get_vbv":"","get_email":"","get_bank":"","double_cc":"","onetime":"on","encrypt_html":"on","block_host":"on","block_ua":"on","block_iprange":"on","block_isp":"on","block_vpn":"on","theme":"apple","letter":"locked","mix_email":""}'
     http_version: 
-  recorded_at: Tue, 29 Jan 2019 01:31:51 GMT
+  recorded_at: Sun, 03 Feb 2019 04:33:18 GMT
 - request:
     method: post
     uri: http://server2.16shop.online/api/setting/get_setting.php
     body:
       encoding: UTF-8
-      string: domain=login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com
+      string: domain=apple-support.summarynewupdatereminder.com
     headers:
       Connection:
       - close
@@ -60,7 +60,7 @@ http_interactions:
       Server:
       - nginx/1.14.0 (Ubuntu)
       Date:
-      - Tue, 29 Jan 2019 01:31:51 GMT
+      - Sun, 03 Feb 2019 04:33:18 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -69,12 +69,12 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"email_result":null,"lock_platform":null,"sender_mail":null,"site_parameter":null,"site_password":null,"site_param_on":null,"site_pass_on":null,"send_login":null,"mix_result":null,"get_photo":null,"get_vbv":null,"get_email":null,"get_bank":null,"double_cc":null,"onetime":null,"encrypt_html":null,"block_host":null,"block_ua":null,"block_iprange":null,"block_isp":null,"block_vpn":null,"theme":null,"letter":null,"mix_email":null}'
+      string: '{"email_result":"mail@apple-support.summarynewupdatereminder.com","lock_platform":"","sender_mail":"mail@hotmail.com","site_parameter":"16shop","site_password":"16shop","site_param_on":"","site_pass_on":"on","send_login":"","mix_result":"","get_photo":"","get_vbv":"","get_email":"","get_bank":"","double_cc":"","onetime":"on","encrypt_html":"on","block_host":"on","block_ua":"on","block_iprange":"on","block_isp":"on","block_vpn":"on","theme":"apple","letter":"locked","mix_email":""}'
     http_version: 
-  recorded_at: Tue, 29 Jan 2019 01:31:51 GMT
+  recorded_at: Sun, 03 Feb 2019 04:33:18 GMT
 - request:
     method: get
-    uri: http://login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com/.config
+    uri: http://apple-support.summarynewupdatereminder.com/.config
     body:
       encoding: UTF-8
       string: ''
@@ -82,7 +82,7 @@ http_interactions:
       Connection:
       - close
       Host:
-      - login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com
+      - apple-support.summarynewupdatereminder.com
       User-Agent:
       - http.rb/4.0.0
   response:
@@ -91,11 +91,11 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Tue, 29 Jan 2019 01:31:51 GMT
+      - Sun, 03 Feb 2019 04:33:18 GMT
       Server:
-      - Apache/2.4.37 (cPanel) OpenSSL/1.0.2q mod_bwlimited/1.4
+      - Apache
       Content-Length:
-      - '487'
+      - '324'
       Connection:
       - close
       Content-Type:
@@ -111,14 +111,12 @@ http_interactions:
         <p>The requested URL /.config was not found on this server.</p>
         <p>Additionally, a 404 Not Found
         error was encountered while trying to use an ErrorDocument to handle the request.</p>
-        <hr>
-        <address>Apache/2.4.37 (cPanel) OpenSSL/1.0.2q mod_bwlimited/1.4 Server at login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com Port 80</address>
         </body></html>
     http_version: 
-  recorded_at: Tue, 29 Jan 2019 01:31:52 GMT
+  recorded_at: Sun, 03 Feb 2019 04:33:18 GMT
 - request:
     method: get
-    uri: https://login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com/.config
+    uri: https://apple-support.summarynewupdatereminder.com/.config
     body:
       encoding: UTF-8
       string: ''
@@ -126,7 +124,7 @@ http_interactions:
       Connection:
       - close
       Host:
-      - login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com
+      - apple-support.summarynewupdatereminder.com
       User-Agent:
       - http.rb/4.0.0
   response:
@@ -135,11 +133,11 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Tue, 29 Jan 2019 01:31:52 GMT
+      - Sun, 03 Feb 2019 04:33:19 GMT
       Server:
-      - Apache/2.4.37 (cPanel) OpenSSL/1.0.2q mod_bwlimited/1.4
+      - Apache
       Content-Length:
-      - '488'
+      - '324'
       Connection:
       - close
       Content-Type:
@@ -155,14 +153,12 @@ http_interactions:
         <p>The requested URL /.config was not found on this server.</p>
         <p>Additionally, a 404 Not Found
         error was encountered while trying to use an ErrorDocument to handle the request.</p>
-        <hr>
-        <address>Apache/2.4.37 (cPanel) OpenSSL/1.0.2q mod_bwlimited/1.4 Server at login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com Port 443</address>
         </body></html>
     http_version: 
-  recorded_at: Tue, 29 Jan 2019 01:31:52 GMT
+  recorded_at: Sun, 03 Feb 2019 04:33:19 GMT
 - request:
     method: get
-    uri: http://login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com/admin
+    uri: http://apple-support.summarynewupdatereminder.com/admin
     body:
       encoding: UTF-8
       string: ''
@@ -170,7 +166,7 @@ http_interactions:
       Connection:
       - close
       Host:
-      - login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com
+      - apple-support.summarynewupdatereminder.com
       User-Agent:
       - http.rb/4.0.0
   response:
@@ -179,13 +175,13 @@ http_interactions:
       message: Moved Permanently
     headers:
       Date:
-      - Tue, 29 Jan 2019 01:31:52 GMT
+      - Sun, 03 Feb 2019 04:33:19 GMT
       Server:
-      - Apache/2.4.37 (cPanel) OpenSSL/1.0.2q mod_bwlimited/1.4
+      - Apache
       Location:
-      - http://login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com/admin/
+      - http://apple-support.summarynewupdatereminder.com/admin/
       Content-Length:
-      - '449'
+      - '264'
       Connection:
       - close
       Content-Type:
@@ -198,15 +194,13 @@ http_interactions:
         <title>301 Moved Permanently</title>
         </head><body>
         <h1>Moved Permanently</h1>
-        <p>The document has moved <a href="http://login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com/admin/">here</a>.</p>
-        <hr>
-        <address>Apache/2.4.37 (cPanel) OpenSSL/1.0.2q mod_bwlimited/1.4 Server at login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com Port 80</address>
+        <p>The document has moved <a href="http://apple-support.summarynewupdatereminder.com/admin/">here</a>.</p>
         </body></html>
     http_version: 
-  recorded_at: Tue, 29 Jan 2019 01:31:53 GMT
+  recorded_at: Sun, 03 Feb 2019 04:33:19 GMT
 - request:
     method: get
-    uri: http://login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com/admin/
+    uri: http://apple-support.summarynewupdatereminder.com/admin/
     body:
       encoding: UTF-8
       string: ''
@@ -216,16 +210,16 @@ http_interactions:
       User-Agent:
       - http.rb/4.0.0
       Host:
-      - login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com
+      - apple-support.summarynewupdatereminder.com
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Tue, 29 Jan 2019 01:31:53 GMT
+      - Sun, 03 Feb 2019 04:33:19 GMT
       Server:
-      - Apache/2.4.37 (cPanel) OpenSSL/1.0.2q mod_bwlimited/1.4
+      - Apache
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -233,7 +227,7 @@ http_interactions:
       Pragma:
       - no-cache
       Set-Cookie:
-      - PHPSESSID=de6ffqe9b1blsmf5ambqrkdr12; path=/
+      - PHPSESSID=85a6dc75dfc4bada1eb2e2db04b37828; path=/
       Vary:
       - Accept-Encoding
       X-Content-Type-Options:
@@ -302,10 +296,10 @@ http_interactions:
         \   <script src=\"vendor/countdowntime/countdowntime.js\"></script>\n<!--===============================================================================================-->\n
         \   <script src=\"js/main.js\"></script>\n\n</body>\n</html>"
     http_version: 
-  recorded_at: Tue, 29 Jan 2019 01:31:53 GMT
+  recorded_at: Sun, 03 Feb 2019 04:33:19 GMT
 - request:
     method: get
-    uri: https://login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com/admin
+    uri: https://apple-support.summarynewupdatereminder.com/admin
     body:
       encoding: UTF-8
       string: ''
@@ -313,7 +307,7 @@ http_interactions:
       Connection:
       - close
       Host:
-      - login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com
+      - apple-support.summarynewupdatereminder.com
       User-Agent:
       - http.rb/4.0.0
   response:
@@ -322,13 +316,13 @@ http_interactions:
       message: Moved Permanently
     headers:
       Date:
-      - Tue, 29 Jan 2019 01:31:54 GMT
+      - Sun, 03 Feb 2019 04:33:19 GMT
       Server:
-      - Apache/2.4.37 (cPanel) OpenSSL/1.0.2q mod_bwlimited/1.4
+      - Apache
       Location:
-      - https://login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com/admin/
+      - https://apple-support.summarynewupdatereminder.com/admin/
       Content-Length:
-      - '451'
+      - '265'
       Connection:
       - close
       Content-Type:
@@ -341,15 +335,13 @@ http_interactions:
         <title>301 Moved Permanently</title>
         </head><body>
         <h1>Moved Permanently</h1>
-        <p>The document has moved <a href="https://login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com/admin/">here</a>.</p>
-        <hr>
-        <address>Apache/2.4.37 (cPanel) OpenSSL/1.0.2q mod_bwlimited/1.4 Server at login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com Port 443</address>
+        <p>The document has moved <a href="https://apple-support.summarynewupdatereminder.com/admin/">here</a>.</p>
         </body></html>
     http_version: 
-  recorded_at: Tue, 29 Jan 2019 01:31:54 GMT
+  recorded_at: Sun, 03 Feb 2019 04:33:19 GMT
 - request:
     method: get
-    uri: https://login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com/admin/
+    uri: https://apple-support.summarynewupdatereminder.com/admin/
     body:
       encoding: UTF-8
       string: ''
@@ -359,16 +351,16 @@ http_interactions:
       User-Agent:
       - http.rb/4.0.0
       Host:
-      - login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com
+      - apple-support.summarynewupdatereminder.com
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Tue, 29 Jan 2019 01:31:54 GMT
+      - Sun, 03 Feb 2019 04:33:19 GMT
       Server:
-      - Apache/2.4.37 (cPanel) OpenSSL/1.0.2q mod_bwlimited/1.4
+      - Apache
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -376,7 +368,7 @@ http_interactions:
       Pragma:
       - no-cache
       Set-Cookie:
-      - PHPSESSID=v4dm9dou1fesq0m0t9h5bdq6u4; path=/
+      - PHPSESSID=b0553e9ad88e6470e94654729f480fce; path=/
       Vary:
       - Accept-Encoding
       X-Content-Type-Options:
@@ -445,5 +437,5 @@ http_interactions:
         \   <script src=\"vendor/countdowntime/countdowntime.js\"></script>\n<!--===============================================================================================-->\n
         \   <script src=\"js/main.js\"></script>\n\n</body>\n</html>"
     http_version: 
-  recorded_at: Tue, 29 Jan 2019 01:31:54 GMT
+  recorded_at: Sun, 03 Feb 2019 04:33:19 GMT
 recorded_with: VCR 4.0.0
