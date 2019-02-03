@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require "sixteen/cache"
 require "sixteen/website"
 require "sixteen/source"
 require "sixteen/notifier"
