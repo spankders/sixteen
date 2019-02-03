@@ -9,8 +9,8 @@ module Sixteen
       websites = domains.map { |domain| Website.new(domain) }
 
       websites.each do |website|
-        next unless website.sixteen_shop?
         next if Cache.cached?(website.domain)
+        next unless website.sixteen_shop?
 
         Notifier.notify(website.domain, website.to_attachments)
         Cache.save(website.domain, true)
