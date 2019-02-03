@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem "bundler"
 gem "dotenv"
 gem "http"
+gem "lightly"
 gem "rake"
 gem "rspec"
 gem "slack-incoming-webhooks"

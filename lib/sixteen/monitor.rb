@@ -10,8 +10,10 @@ module Sixteen
 
       websites.each do |website|
         next unless website.sixteen_shop?
+        next if Cache.cached?(website.domain)
 
         Notifier.notify(website.domain, website.to_attachments)
+        Cache.save(website.domain, true)
       end
     end
   end
