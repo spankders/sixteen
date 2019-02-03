@@ -4,16 +4,13 @@ require "slack/incoming/webhooks"
 
 module Sixteen
   class Notifier
-    def notifiy(title, text)
+    def notifiy(title, attachments)
       if slack_webhook_url?
         slack = Slack::Incoming::Webhooks.new(slack_webhook_url, channel: slack_channel)
-        attachments = {
-          text: text
-        }
-        slack.post title, attachments: [attachments]
+        slack.post title, attachments: attachments
       else
         puts title
-        puts text
+        attachments.each { |attachment| puts attachment.dig(:text) }
       end
     end
 

@@ -67,8 +67,12 @@ module Sixteen
       [setting?, config?, admin_panel?].any?
     end
 
-    def sixteen_info
-      [setting, config, admin_panel].compact.first
+    def to_attachments
+      [].tap do |out|
+        out << { text: setting } if setting?
+        out << { text: config } if config?
+        out << { text: admin_panel } if admin_panel?
+      end
     end
 
     private

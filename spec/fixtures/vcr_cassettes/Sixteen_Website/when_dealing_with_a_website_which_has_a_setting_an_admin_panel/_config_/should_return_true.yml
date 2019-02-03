@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com/.config
+    uri: http://apple-support.summarynewupdatereminder.com/.config
     body:
       encoding: UTF-8
       string: ''
@@ -10,7 +10,7 @@ http_interactions:
       Connection:
       - close
       Host:
-      - login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com
+      - apple-support.summarynewupdatereminder.com
       User-Agent:
       - http.rb/4.0.0
   response:
@@ -19,11 +19,11 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Tue, 29 Jan 2019 01:31:50 GMT
+      - Sun, 03 Feb 2019 04:33:17 GMT
       Server:
-      - Apache/2.4.37 (cPanel) OpenSSL/1.0.2q mod_bwlimited/1.4
+      - Apache
       Content-Length:
-      - '487'
+      - '324'
       Connection:
       - close
       Content-Type:
@@ -39,14 +39,12 @@ http_interactions:
         <p>The requested URL /.config was not found on this server.</p>
         <p>Additionally, a 404 Not Found
         error was encountered while trying to use an ErrorDocument to handle the request.</p>
-        <hr>
-        <address>Apache/2.4.37 (cPanel) OpenSSL/1.0.2q mod_bwlimited/1.4 Server at login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com Port 80</address>
         </body></html>
     http_version: 
-  recorded_at: Tue, 29 Jan 2019 01:31:50 GMT
+  recorded_at: Sun, 03 Feb 2019 04:33:17 GMT
 - request:
     method: get
-    uri: https://login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com/.config
+    uri: https://apple-support.summarynewupdatereminder.com/.config
     body:
       encoding: UTF-8
       string: ''
@@ -54,7 +52,7 @@ http_interactions:
       Connection:
       - close
       Host:
-      - login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com
+      - apple-support.summarynewupdatereminder.com
       User-Agent:
       - http.rb/4.0.0
   response:
@@ -63,11 +61,11 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Tue, 29 Jan 2019 01:31:51 GMT
+      - Sun, 03 Feb 2019 04:33:17 GMT
       Server:
-      - Apache/2.4.37 (cPanel) OpenSSL/1.0.2q mod_bwlimited/1.4
+      - Apache
       Content-Length:
-      - '488'
+      - '324'
       Connection:
       - close
       Content-Type:
@@ -83,9 +81,7 @@ http_interactions:
         <p>The requested URL /.config was not found on this server.</p>
         <p>Additionally, a 404 Not Found
         error was encountered while trying to use an ErrorDocument to handle the request.</p>
-        <hr>
-        <address>Apache/2.4.37 (cPanel) OpenSSL/1.0.2q mod_bwlimited/1.4 Server at login.xn--appleeidwebpss-083mzzo336gyblc.verificationalert03.com Port 443</address>
         </body></html>
     http_version: 
-  recorded_at: Tue, 29 Jan 2019 01:31:51 GMT
+  recorded_at: Sun, 03 Feb 2019 04:33:17 GMT
 recorded_with: VCR 4.0.0
