@@ -20,6 +20,7 @@ GEM
     http-form_data (2.1.1)
     http_parser.rb (0.6.0)
     lightly (0.3.2)
+    parallel (1.13.0)
     public_suffix (3.0.3)
     rake (12.3.2)
     rspec (3.8.0)
@@ -54,6 +55,7 @@ DEPENDENCIES
   dotenv
   http
   lightly
+  parallel
   rake
   rspec
   slack-incoming-webhooks

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "json"
+require "parallel"
 
 module Sixteen
   class Monitor
@@ -8,7 +9,7 @@ module Sixteen
       domains = Sixteen::Source.phishy_domains
       websites = domains.map { |domain| Website.new(domain) }
 
-      websites.each do |website|
+      Parallel.each(websites) do |website|
         next if Cache.cached?(website.domain)
         next unless website.sixteen_shop?
 
