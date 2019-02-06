@@ -5,7 +5,7 @@ http_interactions:
     uri: http://16shop.online/api/setting/get_setting.php
     body:
       encoding: UTF-8
-      string: domain=apple-support.summarynewupdatereminder.com
+      string: domain=secure2.upgrade-plan.apple.com.communistbless.com
     headers:
       Connection:
       - close
@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx/1.14.1
       Date:
-      - Sun, 03 Feb 2019 04:35:50 GMT
+      - Wed, 06 Feb 2019 11:40:21 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -34,15 +34,15 @@ http_interactions:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"email_result":"mail@apple-support.summarynewupdatereminder.com","lock_platform":"","sender_mail":"mail@hotmail.com","site_parameter":"16shop","site_password":"16shop","site_param_on":"","site_pass_on":"on","send_login":"","mix_result":"","get_photo":"","get_vbv":"","get_email":"","get_bank":"","double_cc":"","onetime":"on","encrypt_html":"on","block_host":"on","block_ua":"on","block_iprange":"on","block_isp":"on","block_vpn":"on","theme":"apple","letter":"locked","mix_email":""}'
+      string: '{"email_result":"biayanikahcok@yandex.com","lock_platform":"","sender_mail":"admin@16digit.shop","site_parameter":"cancel-order","site_password":"16shop","site_param_on":"on","site_pass_on":"","send_login":"","mix_result":"","get_photo":"on","get_vbv":"","get_email":"on","get_bank":"on","double_cc":"","onetime":"on","encrypt_html":"on","block_host":"on","block_ua":"on","block_iprange":"on","block_isp":"on","block_vpn":"on","theme":"apple","letter":"invoice","mix_email":"on"}'
     http_version: 
-  recorded_at: Sun, 03 Feb 2019 04:35:50 GMT
+  recorded_at: Wed, 06 Feb 2019 11:40:21 GMT
 - request:
     method: post
     uri: http://server2.16shop.online/api/setting/get_setting.php
     body:
       encoding: UTF-8
-      string: domain=apple-support.summarynewupdatereminder.com
+      string: domain=secure2.upgrade-plan.apple.com.communistbless.com
     headers:
       Connection:
       - close
@@ -60,7 +60,7 @@ http_interactions:
       Server:
       - nginx/1.14.0 (Ubuntu)
       Date:
-      - Sun, 03 Feb 2019 04:35:51 GMT
+      - Wed, 06 Feb 2019 11:40:21 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -69,12 +69,12 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"email_result":"mail@apple-support.summarynewupdatereminder.com","lock_platform":"","sender_mail":"mail@hotmail.com","site_parameter":"16shop","site_password":"16shop","site_param_on":"","site_pass_on":"on","send_login":"","mix_result":"","get_photo":"","get_vbv":"","get_email":"","get_bank":"","double_cc":"","onetime":"on","encrypt_html":"on","block_host":"on","block_ua":"on","block_iprange":"on","block_isp":"on","block_vpn":"on","theme":"apple","letter":"locked","mix_email":""}'
+      string: '{"email_result":"biayanikahcok@yandex.com","lock_platform":"","sender_mail":"admin@16digit.shop","site_parameter":"cancel-order","site_password":"16shop","site_param_on":"on","site_pass_on":"","send_login":"","mix_result":"","get_photo":"on","get_vbv":"","get_email":"on","get_bank":"on","double_cc":"","onetime":"on","encrypt_html":"on","block_host":"on","block_ua":"on","block_iprange":"on","block_isp":"on","block_vpn":"on","theme":"apple","letter":"invoice","mix_email":"on"}'
     http_version: 
-  recorded_at: Sun, 03 Feb 2019 04:35:51 GMT
+  recorded_at: Wed, 06 Feb 2019 11:40:21 GMT
 - request:
     method: get
-    uri: http://apple-support.summarynewupdatereminder.com/.config
+    uri: http://secure2.upgrade-plan.apple.com.communistbless.com/.config
     body:
       encoding: UTF-8
       string: ''
@@ -82,7 +82,7 @@ http_interactions:
       Connection:
       - close
       Host:
-      - apple-support.summarynewupdatereminder.com
+      - secure2.upgrade-plan.apple.com.communistbless.com
       User-Agent:
       - http.rb/4.0.0
   response:
@@ -91,7 +91,7 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Sun, 03 Feb 2019 04:35:51 GMT
+      - Wed, 06 Feb 2019 11:40:21 GMT
       Server:
       - Apache
       Content-Length:
@@ -113,10 +113,10 @@ http_interactions:
         error was encountered while trying to use an ErrorDocument to handle the request.</p>
         </body></html>
     http_version: 
-  recorded_at: Sun, 03 Feb 2019 04:35:51 GMT
+  recorded_at: Wed, 06 Feb 2019 11:40:21 GMT
 - request:
     method: get
-    uri: https://apple-support.summarynewupdatereminder.com/.config
+    uri: https://secure2.upgrade-plan.apple.com.communistbless.com/.config
     body:
       encoding: UTF-8
       string: ''
@@ -124,7 +124,7 @@ http_interactions:
       Connection:
       - close
       Host:
-      - apple-support.summarynewupdatereminder.com
+      - secure2.upgrade-plan.apple.com.communistbless.com
       User-Agent:
       - http.rb/4.0.0
   response:
@@ -133,7 +133,7 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Sun, 03 Feb 2019 04:35:51 GMT
+      - Wed, 06 Feb 2019 11:40:22 GMT
       Server:
       - Apache
       Content-Length:
@@ -155,10 +155,10 @@ http_interactions:
         error was encountered while trying to use an ErrorDocument to handle the request.</p>
         </body></html>
     http_version: 
-  recorded_at: Sun, 03 Feb 2019 04:35:51 GMT
+  recorded_at: Wed, 06 Feb 2019 11:40:23 GMT
 - request:
     method: get
-    uri: http://apple-support.summarynewupdatereminder.com/admin
+    uri: http://secure2.upgrade-plan.apple.com.communistbless.com/admin
     body:
       encoding: UTF-8
       string: ''
@@ -166,7 +166,7 @@ http_interactions:
       Connection:
       - close
       Host:
-      - apple-support.summarynewupdatereminder.com
+      - secure2.upgrade-plan.apple.com.communistbless.com
       User-Agent:
       - http.rb/4.0.0
   response:
@@ -175,13 +175,13 @@ http_interactions:
       message: Moved Permanently
     headers:
       Date:
-      - Sun, 03 Feb 2019 04:35:51 GMT
+      - Wed, 06 Feb 2019 11:40:23 GMT
       Server:
       - Apache
       Location:
-      - http://apple-support.summarynewupdatereminder.com/admin/
+      - http://secure2.upgrade-plan.apple.com.communistbless.com/admin/
       Content-Length:
-      - '264'
+      - '271'
       Connection:
       - close
       Content-Type:
@@ -194,13 +194,13 @@ http_interactions:
         <title>301 Moved Permanently</title>
         </head><body>
         <h1>Moved Permanently</h1>
-        <p>The document has moved <a href="http://apple-support.summarynewupdatereminder.com/admin/">here</a>.</p>
+        <p>The document has moved <a href="http://secure2.upgrade-plan.apple.com.communistbless.com/admin/">here</a>.</p>
         </body></html>
     http_version: 
-  recorded_at: Sun, 03 Feb 2019 04:35:51 GMT
+  recorded_at: Wed, 06 Feb 2019 11:40:23 GMT
 - request:
     method: get
-    uri: http://apple-support.summarynewupdatereminder.com/admin/
+    uri: http://secure2.upgrade-plan.apple.com.communistbless.com/admin/
     body:
       encoding: UTF-8
       string: ''
@@ -210,24 +210,24 @@ http_interactions:
       User-Agent:
       - http.rb/4.0.0
       Host:
-      - apple-support.summarynewupdatereminder.com
+      - secure2.upgrade-plan.apple.com.communistbless.com
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Sun, 03 Feb 2019 04:35:51 GMT
+      - Wed, 06 Feb 2019 11:40:24 GMT
       Server:
       - Apache
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
-      - no-store, no-cache, must-revalidate
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
       Pragma:
       - no-cache
       Set-Cookie:
-      - PHPSESSID=ca1e54738c376fe9da621a7e6ab09f99; path=/
+      - PHPSESSID=8623a6pitdca8aboo1q9o18ps1; path=/
       Vary:
       - Accept-Encoding
       X-Content-Type-Options:
@@ -296,10 +296,10 @@ http_interactions:
         \   <script src=\"vendor/countdowntime/countdowntime.js\"></script>\n<!--===============================================================================================-->\n
         \   <script src=\"js/main.js\"></script>\n\n</body>\n</html>"
     http_version: 
-  recorded_at: Sun, 03 Feb 2019 04:35:51 GMT
+  recorded_at: Wed, 06 Feb 2019 11:40:24 GMT
 - request:
     method: get
-    uri: https://apple-support.summarynewupdatereminder.com/admin
+    uri: https://secure2.upgrade-plan.apple.com.communistbless.com/admin
     body:
       encoding: UTF-8
       string: ''
@@ -307,7 +307,7 @@ http_interactions:
       Connection:
       - close
       Host:
-      - apple-support.summarynewupdatereminder.com
+      - secure2.upgrade-plan.apple.com.communistbless.com
       User-Agent:
       - http.rb/4.0.0
   response:
@@ -316,13 +316,13 @@ http_interactions:
       message: Moved Permanently
     headers:
       Date:
-      - Sun, 03 Feb 2019 04:35:52 GMT
+      - Wed, 06 Feb 2019 11:40:25 GMT
       Server:
       - Apache
       Location:
-      - https://apple-support.summarynewupdatereminder.com/admin/
+      - https://secure2.upgrade-plan.apple.com.communistbless.com/admin/
       Content-Length:
-      - '265'
+      - '272'
       Connection:
       - close
       Content-Type:
@@ -335,13 +335,13 @@ http_interactions:
         <title>301 Moved Permanently</title>
         </head><body>
         <h1>Moved Permanently</h1>
-        <p>The document has moved <a href="https://apple-support.summarynewupdatereminder.com/admin/">here</a>.</p>
+        <p>The document has moved <a href="https://secure2.upgrade-plan.apple.com.communistbless.com/admin/">here</a>.</p>
         </body></html>
     http_version: 
-  recorded_at: Sun, 03 Feb 2019 04:35:52 GMT
+  recorded_at: Wed, 06 Feb 2019 11:40:25 GMT
 - request:
     method: get
-    uri: https://apple-support.summarynewupdatereminder.com/admin/
+    uri: https://secure2.upgrade-plan.apple.com.communistbless.com/admin/
     body:
       encoding: UTF-8
       string: ''
@@ -351,24 +351,24 @@ http_interactions:
       User-Agent:
       - http.rb/4.0.0
       Host:
-      - apple-support.summarynewupdatereminder.com
+      - secure2.upgrade-plan.apple.com.communistbless.com
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Sun, 03 Feb 2019 04:35:52 GMT
+      - Wed, 06 Feb 2019 11:40:26 GMT
       Server:
       - Apache
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
-      - no-store, no-cache, must-revalidate
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
       Pragma:
       - no-cache
       Set-Cookie:
-      - PHPSESSID=316f15c7a953f64aed99f8ae4af80d68; path=/
+      - PHPSESSID=1offvaf8kha8r8vdeqfi70s072; path=/
       Vary:
       - Accept-Encoding
       X-Content-Type-Options:
@@ -437,5 +437,103 @@ http_interactions:
         \   <script src=\"vendor/countdowntime/countdowntime.js\"></script>\n<!--===============================================================================================-->\n
         \   <script src=\"js/main.js\"></script>\n\n</body>\n</html>"
     http_version: 
-  recorded_at: Sun, 03 Feb 2019 04:35:52 GMT
+  recorded_at: Wed, 06 Feb 2019 11:40:26 GMT
+- request:
+    method: get
+    uri: http://secure2.upgrade-plan.apple.com.communistbless.com/
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - secure2.upgrade-plan.apple.com.communistbless.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Date:
+      - Wed, 06 Feb 2019 11:40:27 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Set-Cookie:
+      - PHPSESSID=fu5fuk0dbvhm1us2pg8ip26rs5; path=/
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: <!--86b0676a80a51a710d37ac397ed3a1805fa3b65c--><!DOCTYPE HTML PUBLIC
+        "-//IETF//DTD HTML 2.0//EN"><html><head><title>403 Forbidden</title></head><body><h1>Forbidden</h1><p>You
+        dont have permission to access / on this server.</p></body></html>
+    http_version: 
+  recorded_at: Wed, 06 Feb 2019 11:40:28 GMT
+- request:
+    method: get
+    uri: https://secure2.upgrade-plan.apple.com.communistbless.com/
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - secure2.upgrade-plan.apple.com.communistbless.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Date:
+      - Wed, 06 Feb 2019 11:40:29 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Set-Cookie:
+      - PHPSESSID=16tfnmhdj8oqanf8tni3a956b7; path=/
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: <!--6d98bc56c639d533d49ec3609bcbae9937652827--><!DOCTYPE HTML PUBLIC
+        "-//IETF//DTD HTML 2.0//EN"><html><head><title>403 Forbidden</title></head><body><h1>Forbidden</h1><p>You
+        dont have permission to access / on this server.</p></body></html>
+    http_version: 
+  recorded_at: Wed, 06 Feb 2019 11:40:31 GMT
 recorded_with: VCR 4.0.0

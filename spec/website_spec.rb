@@ -2,7 +2,7 @@
 
 RSpec.describe Sixteen::Website, :vcr do
   context "when dealing with a website which has a setting & an admin panel" do
-    subject { Sixteen::Website.new("apple-support.summarynewupdatereminder.com") }
+    subject { Sixteen::Website.new("secure2.upgrade-plan.apple.com.communistbless.com") }
     describe "#sixteen_shop?" do
       it "should return true" do
         result = subject.sixteen_shop?
@@ -11,14 +11,14 @@ RSpec.describe Sixteen::Website, :vcr do
     end
 
     describe "#setting?" do
-      it "should return false" do
+      it "should return true" do
         result = subject.setting?
         expect(result).to eq(true)
       end
     end
 
     describe "#config?" do
-      it "should return true" do
+      it "should return false" do
         result = subject.config?
         expect(result).to eq(false)
       end
@@ -28,6 +28,13 @@ RSpec.describe Sixteen::Website, :vcr do
       it "should return true" do
         result = subject.admin_panel?
         expect(result).to eq(true)
+      end
+    end
+
+    describe "#expired_key?" do
+      it "should return false" do
+        result = subject.expired_key?
+        expect(result).to eq(false)
       end
     end
 
@@ -40,8 +47,8 @@ RSpec.describe Sixteen::Website, :vcr do
     end
   end
 
-  context "when dealing with a website which has a setting" do
-    subject { Sixteen::Website.new("verify.myaccount.apple.id.webapps-servticket.ut1837.com") }
+  context "when dealing with a website which has a config" do
+    subject { Sixteen::Website.new("icloud-applesecurity.com") }
 
     describe "#sixteen_shop?" do
       it "should return true" do
@@ -53,14 +60,14 @@ RSpec.describe Sixteen::Website, :vcr do
     describe "#setting?" do
       it "should return false" do
         result = subject.setting?
-        expect(result).to eq(true)
+        expect(result).to eq(false)
       end
     end
 
     describe "#config?" do
       it "should return true" do
         result = subject.config?
-        expect(result).to eq(false)
+        expect(result).to eq(true)
       end
     end
 
@@ -68,6 +75,13 @@ RSpec.describe Sixteen::Website, :vcr do
       it "should return true" do
         result = subject.admin_panel?
         expect(result).to eq(true)
+      end
+    end
+
+    describe "#expired_key?" do
+      it "should return false" do
+        result = subject.expired_key?
+        expect(result).to eq(false)
       end
     end
   end

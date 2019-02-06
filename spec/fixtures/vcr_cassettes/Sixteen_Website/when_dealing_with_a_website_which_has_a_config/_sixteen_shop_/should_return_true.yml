@@ -1,8 +1,80 @@
 ---
 http_interactions:
 - request:
+    method: post
+    uri: http://16shop.online/api/setting/get_setting.php
+    body:
+      encoding: UTF-8
+      string: domain=icloud-applesecurity.com
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - 16shop.online
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.14.1
+      Date:
+      - Wed, 06 Feb 2019 11:40:50 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"email_result":null,"lock_platform":null,"sender_mail":null,"site_parameter":null,"site_password":null,"site_param_on":null,"site_pass_on":null,"send_login":null,"mix_result":null,"get_photo":null,"get_vbv":null,"get_email":null,"get_bank":null,"double_cc":null,"onetime":null,"encrypt_html":null,"block_host":null,"block_ua":null,"block_iprange":null,"block_isp":null,"block_vpn":null,"theme":null,"letter":null,"mix_email":null}'
+    http_version: 
+  recorded_at: Wed, 06 Feb 2019 11:40:50 GMT
+- request:
+    method: post
+    uri: http://server2.16shop.online/api/setting/get_setting.php
+    body:
+      encoding: UTF-8
+      string: domain=icloud-applesecurity.com
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - server2.16shop.online
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.14.0 (Ubuntu)
+      Date:
+      - Wed, 06 Feb 2019 11:40:50 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"email_result":null,"lock_platform":null,"sender_mail":null,"site_parameter":null,"site_password":null,"site_param_on":null,"site_pass_on":null,"send_login":null,"mix_result":null,"get_photo":null,"get_vbv":null,"get_email":null,"get_bank":null,"double_cc":null,"onetime":null,"encrypt_html":null,"block_host":null,"block_ua":null,"block_iprange":null,"block_isp":null,"block_vpn":null,"theme":null,"letter":null,"mix_email":null}'
+    http_version: 
+  recorded_at: Wed, 06 Feb 2019 11:40:50 GMT
+- request:
     method: get
-    uri: http://secure2.upgrade-plan.apple.com.communistbless.com/admin
+    uri: http://icloud-applesecurity.com/.config
     body:
       encoding: UTF-8
       string: ''
@@ -10,7 +82,101 @@ http_interactions:
       Connection:
       - close
       Host:
-      - secure2.upgrade-plan.apple.com.communistbless.com
+      - icloud-applesecurity.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Last-Modified:
+      - Sun, 03 Feb 2019 03:52:10 GMT
+      Content-Type:
+      - application/octet-stream
+      Content-Length:
+      - '1356'
+      Date:
+      - Wed, 06 Feb 2019 11:40:50 GMT
+      Server:
+      - LiteSpeed
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           \n[result]\nemail
+        = moneyvault2018@gmail.com\nbackup = 0\nsend_login = 0\nmix_result = 0\n\n[security]\nencrypt_html
+        = 0\nblock_hostname = 1\nblock_useragent = 1\nblock_iprange = 1\nblock_isp
+        = 1\nproxy_block = 1\nblock = 1\n\n[site_password]\nsite_password = 0\npassword
+        = 16shop\n\n[site_parameter]\nsite_parameter = 1\nparameter = _\n\n[setting]\nlock_lang
+        = ALL\ngrab_data = 0\nget_photo = 0\nget_bank = 0\nget_vbv = 0\nlock_platform
+        = 0\ndouble_cc = 0\n\n[version]\nversion = 1.8.2        \n                    \n
+        \                   \n                    \n                    \n                    \n
+        \                   \n                    \n                    \n                    \n
+        \                   \n                    \n                    \n                    \n
+        \                   \n                    \n                    \n                    \n
+        \                   \n                    \n                    \n"
+    http_version: 
+  recorded_at: Wed, 06 Feb 2019 11:40:51 GMT
+- request:
+    method: get
+    uri: https://icloud-applesecurity.com/.config
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - icloud-applesecurity.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Last-Modified:
+      - Sun, 03 Feb 2019 03:52:10 GMT
+      Content-Type:
+      - application/octet-stream
+      Content-Length:
+      - '1356'
+      Date:
+      - Wed, 06 Feb 2019 11:40:52 GMT
+      Server:
+      - LiteSpeed
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="35,39,43"
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           \n[result]\nemail
+        = moneyvault2018@gmail.com\nbackup = 0\nsend_login = 0\nmix_result = 0\n\n[security]\nencrypt_html
+        = 0\nblock_hostname = 1\nblock_useragent = 1\nblock_iprange = 1\nblock_isp
+        = 1\nproxy_block = 1\nblock = 1\n\n[site_password]\nsite_password = 0\npassword
+        = 16shop\n\n[site_parameter]\nsite_parameter = 1\nparameter = _\n\n[setting]\nlock_lang
+        = ALL\ngrab_data = 0\nget_photo = 0\nget_bank = 0\nget_vbv = 0\nlock_platform
+        = 0\ndouble_cc = 0\n\n[version]\nversion = 1.8.2        \n                    \n
+        \                   \n                    \n                    \n                    \n
+        \                   \n                    \n                    \n                    \n
+        \                   \n                    \n                    \n                    \n
+        \                   \n                    \n                    \n                    \n
+        \                   \n                    \n                    \n"
+    http_version: 
+  recorded_at: Wed, 06 Feb 2019 11:40:52 GMT
+- request:
+    method: get
+    uri: http://icloud-applesecurity.com/admin
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - icloud-applesecurity.com
       User-Agent:
       - http.rb/4.0.0
   response:
@@ -18,33 +184,33 @@ http_interactions:
       code: 301
       message: Moved Permanently
     headers:
-      Date:
-      - Wed, 06 Feb 2019 11:40:17 GMT
-      Server:
-      - Apache
-      Location:
-      - http://secure2.upgrade-plan.apple.com.communistbless.com/admin/
+      Content-Type:
+      - text/html
       Content-Length:
-      - '271'
+      - '617'
+      Date:
+      - Wed, 06 Feb 2019 11:40:52 GMT
+      Server:
+      - LiteSpeed
+      Location:
+      - http://icloud-applesecurity.com/admin/
       Connection:
       - close
-      Content-Type:
-      - text/html; charset=iso-8859-1
     body:
-      encoding: ISO-8859-1
-      string: |
-        <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-        <html><head>
-        <title>301 Moved Permanently</title>
-        </head><body>
-        <h1>Moved Permanently</h1>
-        <p>The document has moved <a href="http://secure2.upgrade-plan.apple.com.communistbless.com/admin/">here</a>.</p>
-        </body></html>
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\n<html style=\"height:100%\">\n<head><title> 301 Moved
+        Permanently\r\n</title></head>\n<body style=\"color: #444; margin:0;font:
+        normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color:
+        #fff;\">\n<div style=\"height:auto; min-height:100%; \">     <div style=\"text-align:
+        center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n
+        \       <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">301</h1>\n<h2
+        style=\"margin-top:20px;font-size: 30px;\">Moved Permanently\r\n</h2>\n<p>The
+        document has been permanently moved.</p>\n</div></div></body></html>\n"
     http_version: 
-  recorded_at: Wed, 06 Feb 2019 11:40:17 GMT
+  recorded_at: Wed, 06 Feb 2019 11:40:53 GMT
 - request:
     method: get
-    uri: http://secure2.upgrade-plan.apple.com.communistbless.com/admin/
+    uri: http://icloud-applesecurity.com/admin/
     body:
       encoding: UTF-8
       string: ''
@@ -54,36 +220,30 @@ http_interactions:
       User-Agent:
       - http.rb/4.0.0
       Host:
-      - secure2.upgrade-plan.apple.com.communistbless.com
+      - icloud-applesecurity.com
   response:
     status:
       code: 200
       message: OK
     headers:
-      Date:
-      - Wed, 06 Feb 2019 11:40:18 GMT
-      Server:
-      - Apache
+      Set-Cookie:
+      - PHPSESSID=3a9o2pbgq6aom2v139qhbnuku2; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
       - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
       Pragma:
       - no-cache
-      Set-Cookie:
-      - PHPSESSID=tktl6ev8quta2jrfiqes7gclb4; path=/
-      Vary:
-      - Accept-Encoding
-      X-Content-Type-Options:
-      - nosniff
-      X-Xss-Protection:
-      - 1; mode=block
-      Connection:
-      - close
-      Transfer-Encoding:
-      - chunked
       Content-Type:
       - text/html; charset=UTF-8
+      Content-Length:
+      - '5639'
+      Date:
+      - Wed, 06 Feb 2019 11:40:53 GMT
+      Server:
+      - LiteSpeed
+      Connection:
+      - close
     body:
       encoding: UTF-8
       string: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>16Shop - Admin
@@ -105,21 +265,16 @@ http_interactions:
         style=\"background-image: url(bg.png);\">\n                <br><br><br><br>\n
         \                   \n                </div>\n\n                <form action=\"index.php\"
         method=\"POST\" class=\"login100-form validate-form\">\n                \n
-        \               \t<div class=\"wrap-input100 validate-input m-b-26\" data-validate=\"Public
-        key is required\">\n                        <span class=\"label-input100\">Key</span>\n
-        \                       <input class=\"input100\" type=\"text\" name=\"key\"
-        placeholder=\"Enter public key\">\n                        <span class=\"focus-input100\"></span>\n
-        \                   </div>\n                    <div class=\"wrap-input100
-        validate-input m-b-26\" data-validate=\"Email is required\">\n                        <span
-        class=\"label-input100\">Email</span>\n                        <input class=\"input100\"
-        type=\"email\" name=\"email\" placeholder=\"Enter email\">\n                        <span
+        \                   <div class=\"wrap-input100 validate-input m-b-26\" data-validate=\"Email
+        is required\">\n                        <span class=\"label-input100\">Email</span>\n
+        \                       <input class=\"input100\" type=\"email\" name=\"email\"
+        placeholder=\"Enter email\">\n                        <span class=\"focus-input100\"></span>\n
+        \                   </div>\n\n                    <div class=\"wrap-input100
+        validate-input m-b-18\" data-validate = \"Password is required\">\n                        <span
+        class=\"label-input100\">Password</span>\n                        <input class=\"input100\"
+        type=\"password\" name=\"password\" placeholder=\"Enter password\">\n                        <span
         class=\"focus-input100\"></span>\n                    </div>\n\n                    <div
-        class=\"wrap-input100 validate-input m-b-18\" data-validate = \"Password is
-        required\">\n                        <span class=\"label-input100\">Password</span>\n
-        \                       <input class=\"input100\" type=\"password\" name=\"password\"
-        placeholder=\"Enter password\">\n                        <span class=\"focus-input100\"></span>\n
-        \                   </div>\n\n                    <div class=\"flex-sb-m w-full
-        p-b-30\">\n                        <div class=\"contact100-form-checkbox\">\n
+        class=\"flex-sb-m w-full p-b-30\">\n                        <div class=\"contact100-form-checkbox\">\n
         \                           <input class=\"input-checkbox100\" id=\"ckb1\"
         type=\"checkbox\" name=\"remember-me\">\n                            <label
         class=\"label-checkbox100\" for=\"ckb1\">\n                                Remember
@@ -138,12 +293,12 @@ http_interactions:
         \   <script src=\"vendor/daterangepicker/moment.min.js\"></script>\n    <script
         src=\"vendor/daterangepicker/daterangepicker.js\"></script>\n<!--===============================================================================================-->\n
         \   <script src=\"vendor/countdowntime/countdowntime.js\"></script>\n<!--===============================================================================================-->\n
-        \   <script src=\"js/main.js\"></script>\n\n</body>\n</html>"
+        \   <script src=\"js/main.js\"></script>\n\n</body>\n</html>\n"
     http_version: 
-  recorded_at: Wed, 06 Feb 2019 11:40:18 GMT
+  recorded_at: Wed, 06 Feb 2019 11:40:54 GMT
 - request:
     method: get
-    uri: https://secure2.upgrade-plan.apple.com.communistbless.com/admin
+    uri: https://icloud-applesecurity.com/admin
     body:
       encoding: UTF-8
       string: ''
@@ -151,7 +306,7 @@ http_interactions:
       Connection:
       - close
       Host:
-      - secure2.upgrade-plan.apple.com.communistbless.com
+      - icloud-applesecurity.com
       User-Agent:
       - http.rb/4.0.0
   response:
@@ -159,33 +314,35 @@ http_interactions:
       code: 301
       message: Moved Permanently
     headers:
-      Date:
-      - Wed, 06 Feb 2019 11:40:19 GMT
-      Server:
-      - Apache
-      Location:
-      - https://secure2.upgrade-plan.apple.com.communistbless.com/admin/
+      Content-Type:
+      - text/html
       Content-Length:
-      - '272'
+      - '617'
+      Date:
+      - Wed, 06 Feb 2019 11:40:54 GMT
+      Server:
+      - LiteSpeed
+      Location:
+      - https://icloud-applesecurity.com/admin/
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="35,39,43"
       Connection:
       - close
-      Content-Type:
-      - text/html; charset=iso-8859-1
     body:
-      encoding: ISO-8859-1
-      string: |
-        <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-        <html><head>
-        <title>301 Moved Permanently</title>
-        </head><body>
-        <h1>Moved Permanently</h1>
-        <p>The document has moved <a href="https://secure2.upgrade-plan.apple.com.communistbless.com/admin/">here</a>.</p>
-        </body></html>
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\n<html style=\"height:100%\">\n<head><title> 301 Moved
+        Permanently\r\n</title></head>\n<body style=\"color: #444; margin:0;font:
+        normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color:
+        #fff;\">\n<div style=\"height:auto; min-height:100%; \">     <div style=\"text-align:
+        center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n
+        \       <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">301</h1>\n<h2
+        style=\"margin-top:20px;font-size: 30px;\">Moved Permanently\r\n</h2>\n<p>The
+        document has been permanently moved.</p>\n</div></div></body></html>\n"
     http_version: 
-  recorded_at: Wed, 06 Feb 2019 11:40:19 GMT
+  recorded_at: Wed, 06 Feb 2019 11:40:55 GMT
 - request:
     method: get
-    uri: https://secure2.upgrade-plan.apple.com.communistbless.com/admin/
+    uri: https://icloud-applesecurity.com/admin/
     body:
       encoding: UTF-8
       string: ''
@@ -195,36 +352,32 @@ http_interactions:
       User-Agent:
       - http.rb/4.0.0
       Host:
-      - secure2.upgrade-plan.apple.com.communistbless.com
+      - icloud-applesecurity.com
   response:
     status:
       code: 200
       message: OK
     headers:
-      Date:
-      - Wed, 06 Feb 2019 11:40:20 GMT
-      Server:
-      - Apache
+      Set-Cookie:
+      - PHPSESSID=dmreebiblvlrd7he6hjq5kvkt7; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
       - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
       Pragma:
       - no-cache
-      Set-Cookie:
-      - PHPSESSID=io3qno4haseorf4cpl063gvut1; path=/
-      Vary:
-      - Accept-Encoding
-      X-Content-Type-Options:
-      - nosniff
-      X-Xss-Protection:
-      - 1; mode=block
-      Connection:
-      - close
-      Transfer-Encoding:
-      - chunked
       Content-Type:
       - text/html; charset=UTF-8
+      Content-Length:
+      - '5639'
+      Date:
+      - Wed, 06 Feb 2019 11:40:55 GMT
+      Server:
+      - LiteSpeed
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="35,39,43"
+      Connection:
+      - close
     body:
       encoding: UTF-8
       string: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>16Shop - Admin
@@ -246,21 +399,16 @@ http_interactions:
         style=\"background-image: url(bg.png);\">\n                <br><br><br><br>\n
         \                   \n                </div>\n\n                <form action=\"index.php\"
         method=\"POST\" class=\"login100-form validate-form\">\n                \n
-        \               \t<div class=\"wrap-input100 validate-input m-b-26\" data-validate=\"Public
-        key is required\">\n                        <span class=\"label-input100\">Key</span>\n
-        \                       <input class=\"input100\" type=\"text\" name=\"key\"
-        placeholder=\"Enter public key\">\n                        <span class=\"focus-input100\"></span>\n
-        \                   </div>\n                    <div class=\"wrap-input100
-        validate-input m-b-26\" data-validate=\"Email is required\">\n                        <span
-        class=\"label-input100\">Email</span>\n                        <input class=\"input100\"
-        type=\"email\" name=\"email\" placeholder=\"Enter email\">\n                        <span
+        \                   <div class=\"wrap-input100 validate-input m-b-26\" data-validate=\"Email
+        is required\">\n                        <span class=\"label-input100\">Email</span>\n
+        \                       <input class=\"input100\" type=\"email\" name=\"email\"
+        placeholder=\"Enter email\">\n                        <span class=\"focus-input100\"></span>\n
+        \                   </div>\n\n                    <div class=\"wrap-input100
+        validate-input m-b-18\" data-validate = \"Password is required\">\n                        <span
+        class=\"label-input100\">Password</span>\n                        <input class=\"input100\"
+        type=\"password\" name=\"password\" placeholder=\"Enter password\">\n                        <span
         class=\"focus-input100\"></span>\n                    </div>\n\n                    <div
-        class=\"wrap-input100 validate-input m-b-18\" data-validate = \"Password is
-        required\">\n                        <span class=\"label-input100\">Password</span>\n
-        \                       <input class=\"input100\" type=\"password\" name=\"password\"
-        placeholder=\"Enter password\">\n                        <span class=\"focus-input100\"></span>\n
-        \                   </div>\n\n                    <div class=\"flex-sb-m w-full
-        p-b-30\">\n                        <div class=\"contact100-form-checkbox\">\n
+        class=\"flex-sb-m w-full p-b-30\">\n                        <div class=\"contact100-form-checkbox\">\n
         \                           <input class=\"input-checkbox100\" id=\"ckb1\"
         type=\"checkbox\" name=\"remember-me\">\n                            <label
         class=\"label-checkbox100\" for=\"ckb1\">\n                                Remember
@@ -279,7 +427,7 @@ http_interactions:
         \   <script src=\"vendor/daterangepicker/moment.min.js\"></script>\n    <script
         src=\"vendor/daterangepicker/daterangepicker.js\"></script>\n<!--===============================================================================================-->\n
         \   <script src=\"vendor/countdowntime/countdowntime.js\"></script>\n<!--===============================================================================================-->\n
-        \   <script src=\"js/main.js\"></script>\n\n</body>\n</html>"
+        \   <script src=\"js/main.js\"></script>\n\n</body>\n</html>\n"
     http_version: 
-  recorded_at: Wed, 06 Feb 2019 11:40:20 GMT
+  recorded_at: Wed, 06 Feb 2019 11:40:56 GMT
 recorded_with: VCR 4.0.0
