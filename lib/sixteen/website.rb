@@ -59,6 +59,19 @@ module Sixteen
       admin_panel != nil
     end
 
+    def expired_key
+      @expired_key ||= [].tap do |out|
+        base_urls.each do |base_url|
+          body = get_body(base_url)
+          out << "16shop with an expired key: #{url}." if body&.include?("BUY NOW") && body&.include?("KEY EXPIRED!")
+        end
+      end.first
+    end
+
+    def expired_key?
+      expired_key != nil
+    end
+
     def base_urls
       %w(http https).map { |scheme| "#{scheme}://#{domain}" }
     end
@@ -72,6 +85,7 @@ module Sixteen
         out << { text: setting } if setting?
         out << { text: config } if config?
         out << { text: admin_panel } if admin_panel?
+        out << { text: expired_key } if expired_key?
       end
     end
 
