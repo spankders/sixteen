@@ -63,7 +63,7 @@ module Sixteen
       @expired_key ||= [].tap do |out|
         base_urls.each do |base_url|
           body = get_body(base_url)
-          out << "16shop with an expired key: #{url}." if body&.include?("BUY NOW") && body&.include?("KEY EXPIRED!")
+          out << "16shop with an expired key: #{base_url}." if body&.include?("BUY NOW") && body&.include?("KEY EXPIRED!")
         end
       end.first
     end
