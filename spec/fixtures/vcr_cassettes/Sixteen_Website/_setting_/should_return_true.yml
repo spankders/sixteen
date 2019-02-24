@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://16shop.online/api/setting/get_setting.php
+    body:
+      encoding: UTF-8
+      string: domain=iforgotaccount-setup.com
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - 16shop.online
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.14.1
+      Date:
+      - Sun, 24 Feb 2019 01:29:18 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"email_result":"minionbackagain@gmail.com","lock_platform":"","sender_mail":"Expvk0@minionsleep.com","site_parameter":"gt1m3","site_password":"gt1m3","site_param_on":"on","site_pass_on":"","send_login":"on","mix_result":"","get_photo":"","get_vbv":"","get_email":"","get_bank":"","double_cc":"","onetime":"on","encrypt_html":"","block_host":"on","block_ua":"on","block_iprange":"on","block_isp":"on","block_vpn":"","theme":"apple","letter":"locked","mix_email":""}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 01:29:18 GMT
+- request:
+    method: post
+    uri: http://server2.16shop.online/api/setting/get_setting.php
+    body:
+      encoding: UTF-8
+      string: domain=iforgotaccount-setup.com
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - server2.16shop.online
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.14.0 (Ubuntu)
+      Date:
+      - Sun, 24 Feb 2019 01:29:18 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"email_result":"minionbackagain@gmail.com","lock_platform":"","sender_mail":"Expvk0@minionsleep.com","site_parameter":"gt1m3","site_password":"gt1m3","site_param_on":"on","site_pass_on":"","send_login":"on","mix_result":"","get_photo":"","get_vbv":"","get_email":"","get_bank":"","double_cc":"","onetime":"on","encrypt_html":"","block_host":"on","block_ua":"on","block_iprange":"on","block_isp":"on","block_vpn":"","theme":"apple","letter":"locked","mix_email":""}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 01:29:18 GMT
+recorded_with: VCR 4.0.0

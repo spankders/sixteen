@@ -72,6 +72,20 @@ module Sixteen
       expired_key != nil
     end
 
+    def panel?
+      panel != nil
+    end
+
+    def panel
+      @panel ||= [].tap do |out|
+        base_urls.each do |base_url|
+          url = "#{base_url}/panel.php"
+          body = get_body(url)
+          out << "YoungSister admin panel: #{url}." if body&.include?("YoungSister")
+        end
+      end.first
+    end
+
     def base_urls
       %w(http https).map { |scheme| "#{scheme}://#{domain}" }
     end
@@ -82,10 +96,11 @@ module Sixteen
 
     def to_attachments
       [].tap do |out|
-        out << { text: setting } if setting?
-        out << { text: config } if config?
         out << { text: admin_panel } if admin_panel?
+        out << { text: config } if config?
         out << { text: expired_key } if expired_key?
+        out << { text: panel } if panel?
+        out << { text: setting } if setting?
       end
     end
 
