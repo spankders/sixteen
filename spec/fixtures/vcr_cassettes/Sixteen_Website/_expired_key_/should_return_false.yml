@@ -1,0 +1,117 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://iforgotaccount-setup.com/
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - iforgotaccount-setup.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Date:
+      - Sun, 24 Feb 2019 01:29:02 GMT
+      Server:
+      - Apple
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Buildversion:
+      - R3-2
+      X-Frame-Options:
+      - DENY
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      - 1; mode=block
+      Host:
+      - appleid.apple.com
+      Vary:
+      - Accept-Encoding
+      Set-Cookie:
+      - PHPSESSID=ga6nv41ton6424r70kfg1t66a1; path=/
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: <!--50bbe5f46d21a271824cd27850d4ea35a1cfb711--><!DOCTYPE HTML PUBLIC
+        "-//IETF//DTD HTML 2.0//EN"><html><head><title>403 Forbidden</title></head><body><h1>Forbidden</h1><p>You
+        dont have permission to access / on this server.</p></body></html>
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 01:29:04 GMT
+- request:
+    method: get
+    uri: https://iforgotaccount-setup.com/
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - iforgotaccount-setup.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Date:
+      - Sun, 24 Feb 2019 01:29:05 GMT
+      Server:
+      - Apple
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Buildversion:
+      - R3-2
+      X-Frame-Options:
+      - DENY
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      - 1; mode=block
+      Host:
+      - appleid.apple.com
+      Vary:
+      - Accept-Encoding
+      Set-Cookie:
+      - PHPSESSID=ejsk5l7e2l4hnemv6mkeja4fn2; path=/
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: <!--038bd0c35523fc61c4172473b3736a67555ff3ff--><!DOCTYPE HTML PUBLIC
+        "-//IETF//DTD HTML 2.0//EN"><html><head><title>403 Forbidden</title></head><body><h1>Forbidden</h1><p>You
+        dont have permission to access / on this server.</p></body></html>
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 01:29:07 GMT
+recorded_with: VCR 4.0.0
