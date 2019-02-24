@@ -111,7 +111,7 @@ module Sixteen
       return nil if res.code != 200
 
       res.body.to_s
-    rescue HTTP::Error, OpenSSL::SSL::SSLError => _
+    rescue HTTP::Error, OpenSSL::SSL::SSLError, Addressable::URI::InvalidURIError => _
       nil
     end
   end
