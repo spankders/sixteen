@@ -6,7 +6,7 @@ module Sixteen
   class Cache
     attr_reader :cache
     def initialize
-      @cache = Lightly.new(dir: "/tmp/sixteen", life: "48h")
+      @cache = Lightly.new(dir: "/tmp/sixteen", life: "10d")
     end
 
     def self.get(key)
