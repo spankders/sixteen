@@ -4,9 +4,11 @@ A 16shop tracker.
 
 ## features
 
-- [x] setting (via API) check
-- [x] `/.config` check
-- [x] admin panel check
+- [x] Setting check (via API)
+- [x] Config check (`/.config`)
+- [x] Admin panel check
+- [x] Expired key check
+- [x] Opendir kit check
 
 ## prerequisite
 
