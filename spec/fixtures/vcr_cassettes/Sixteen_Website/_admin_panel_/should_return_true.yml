@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://iforgotaccount-setup.com/admin
+    uri: http://appleid.apple.payments-center462.com/admin
     body:
       encoding: UTF-8
       string: ''
@@ -10,276 +10,96 @@ http_interactions:
       Connection:
       - close
       Host:
-      - iforgotaccount-setup.com
+      - appleid.apple.payments-center462.com
       User-Agent:
       - http.rb/4.0.0
   response:
     status:
-      code: 301
-      message: Moved Permanently
+      code: 404
+      message: Not Found
     headers:
-      Date:
-      - Sun, 24 Feb 2019 01:29:07 GMT
-      Server:
-      - Apache
-      Location:
-      - http://iforgotaccount-setup.com/admin/
-      Content-Length:
-      - '246'
-      Connection:
-      - close
-      Content-Type:
-      - text/html; charset=iso-8859-1
-    body:
-      encoding: ISO-8859-1
-      string: |
-        <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-        <html><head>
-        <title>301 Moved Permanently</title>
-        </head><body>
-        <h1>Moved Permanently</h1>
-        <p>The document has moved <a href="http://iforgotaccount-setup.com/admin/">here</a>.</p>
-        </body></html>
-    http_version: 
-  recorded_at: Sun, 24 Feb 2019 01:29:07 GMT
-- request:
-    method: get
-    uri: http://iforgotaccount-setup.com/admin/
-    body:
-      encoding: UTF-8
-      string: ''
-    headers:
-      Connection:
-      - close
-      User-Agent:
-      - http.rb/4.0.0
-      Host:
-      - iforgotaccount-setup.com
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 24 Feb 2019 01:29:08 GMT
-      Server:
-      - Apache
-      Expires:
-      - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
-      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      - private, no-cache, no-store, must-revalidate, max-age=0
       Pragma:
       - no-cache
-      Set-Cookie:
-      - PHPSESSID=phrt3uht49ml97d5vumlqfh7n3; path=/
-      Vary:
-      - Accept-Encoding
-      X-Content-Type-Options:
-      - nosniff
-      X-Xss-Protection:
-      - 1; mode=block
-      Connection:
-      - close
-      Transfer-Encoding:
-      - chunked
       Content-Type:
-      - text/html; charset=UTF-8
-    body:
-      encoding: UTF-8
-      string: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>16Shop - Admin
-        Panel</title>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width,
-        initial-scale=1\">\n<!--===============================================================================================-->
-        \ \n    <link rel=\"icon\" type=\"image/png\" href=\"images/icons/favicon.ico\"/>\n<!--===============================================================================================-->\n
-        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"vendor/bootstrap/css/bootstrap.min.css\">\n<!--===============================================================================================-->\n
-        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"fonts/font-awesome-4.7.0/css/font-awesome.min.css\">\n<!--===============================================================================================-->\n
-        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"fonts/Linearicons-Free-v1.0.0/icon-font.min.css\">\n<!--===============================================================================================-->\n
-        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"vendor/animate/animate.css\">\n<!--===============================================================================================-->
-        \ \n    <link rel=\"stylesheet\" type=\"text/css\" href=\"vendor/css-hamburgers/hamburgers.min.css\">\n<!--===============================================================================================-->\n
-        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"vendor/animsition/css/animsition.min.css\">\n<!--===============================================================================================-->\n
-        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"vendor/select2/select2.min.css\">\n<!--===============================================================================================-->
-        \ \n    <link rel=\"stylesheet\" type=\"text/css\" href=\"vendor/daterangepicker/daterangepicker.css\">\n<!--===============================================================================================-->\n
-        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"css/util.css\">\n    <link
-        rel=\"stylesheet\" type=\"text/css\" href=\"css/main.css\">\n<!--===============================================================================================-->\n</head>\n<body>\n
-        \ <div class=\"limiter\">\n        <div class=\"container-login100\">\n            <div
-        class=\"wrap-login100\">\n                \n                <div class=\"login100-form-title\"
-        style=\"background-image: url(bg.png);\">\n                <br><br><br><br>\n
-        \                   \n                </div>\n\n                <form action=\"index.php\"
-        method=\"POST\" class=\"login100-form validate-form\">\n                \n
-        \               \t<div class=\"wrap-input100 validate-input m-b-26\" data-validate=\"Public
-        key is required\">\n                        <span class=\"label-input100\">Key</span>\n
-        \                       <input class=\"input100\" type=\"text\" name=\"key\"
-        placeholder=\"Enter public key\">\n                        <span class=\"focus-input100\"></span>\n
-        \                   </div>\n                    <div class=\"wrap-input100
-        validate-input m-b-26\" data-validate=\"Email is required\">\n                        <span
-        class=\"label-input100\">Email</span>\n                        <input class=\"input100\"
-        type=\"email\" name=\"email\" placeholder=\"Enter email\">\n                        <span
-        class=\"focus-input100\"></span>\n                    </div>\n\n                    <div
-        class=\"wrap-input100 validate-input m-b-18\" data-validate = \"Password is
-        required\">\n                        <span class=\"label-input100\">Password</span>\n
-        \                       <input class=\"input100\" type=\"password\" name=\"password\"
-        placeholder=\"Enter password\">\n                        <span class=\"focus-input100\"></span>\n
-        \                   </div>\n\n                    <div class=\"flex-sb-m w-full
-        p-b-30\">\n                        <div class=\"contact100-form-checkbox\">\n
-        \                           <input class=\"input-checkbox100\" id=\"ckb1\"
-        type=\"checkbox\" name=\"remember-me\">\n                            <label
-        class=\"label-checkbox100\" for=\"ckb1\">\n                                Remember
-        me\n                            </label>\n                        </div>\n\n
-        \                       <div>\n                            <a href=\"https://fb.me/riswanda.ns\"
-        class=\"txt1\">\n                                Powered by Z1coder Team\n
-        \                           </a>\n                        </div>\n                    </div>\n\n
-        \                   <div class=\"container-login100-form-btn\">\n                        <button
-        class=\"login100-form-btn\">\n                            Login\n                        </button>\n
-        \                   </div>\n                </form>\n            </div>\n
-        \       </div>\n    </div><!--===============================================================================================-->\n
-        \   <script src=\"vendor/jquery/jquery-3.2.1.min.js\"></script>\n<!--===============================================================================================-->\n
-        \   <script src=\"vendor/animsition/js/animsition.min.js\"></script>\n<!--===============================================================================================-->\n
-        \   <script src=\"vendor/bootstrap/js/popper.js\"></script>\n    <script src=\"vendor/bootstrap/js/bootstrap.min.js\"></script>\n<!--===============================================================================================-->\n
-        \   <script src=\"vendor/select2/select2.min.js\"></script>\n<!--===============================================================================================-->\n
-        \   <script src=\"vendor/daterangepicker/moment.min.js\"></script>\n    <script
-        src=\"vendor/daterangepicker/daterangepicker.js\"></script>\n<!--===============================================================================================-->\n
-        \   <script src=\"vendor/countdowntime/countdowntime.js\"></script>\n<!--===============================================================================================-->\n
-        \   <script src=\"js/main.js\"></script>\n\n</body>\n</html>"
-    http_version: 
-  recorded_at: Sun, 24 Feb 2019 01:29:08 GMT
-- request:
-    method: get
-    uri: https://iforgotaccount-setup.com/admin
-    body:
-      encoding: UTF-8
-      string: ''
-    headers:
-      Connection:
-      - close
-      Host:
-      - iforgotaccount-setup.com
-      User-Agent:
-      - http.rb/4.0.0
-  response:
-    status:
-      code: 301
-      message: Moved Permanently
-    headers:
-      Date:
-      - Sun, 24 Feb 2019 01:29:09 GMT
-      Server:
-      - Apache
-      Location:
-      - https://iforgotaccount-setup.com/admin/
+      - text/html
       Content-Length:
-      - '247'
+      - '1148'
+      Date:
+      - Mon, 25 Feb 2019 22:15:09 GMT
+      Server:
+      - LiteSpeed
       Connection:
       - close
-      Content-Type:
-      - text/html; charset=iso-8859-1
     body:
-      encoding: ISO-8859-1
-      string: |
-        <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-        <html><head>
-        <title>301 Moved Permanently</title>
-        </head><body>
-        <h1>Moved Permanently</h1>
-        <p>The document has moved <a href="https://iforgotaccount-setup.com/admin/">here</a>.</p>
-        </body></html>
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\n<html style=\"height:100%\">\n<head><title> 404 Not
+        Found\r\n</title></head>\n<body style=\"color: #444; margin:0;font: normal
+        14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;\">\n<div
+        style=\"height:auto; min-height:100%; \">     <div style=\"text-align: center;
+        width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n
+        \       <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">404</h1>\n<h2
+        style=\"margin-top:20px;font-size: 30px;\">Not Found\r\n</h2>\n<p>The resource
+        requested could not be found on this server!</p>\n</div></div><div style=\"color:#f0f0f0;
+        font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top:
+        1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;\">\n<br>Proudly
+        powered by  <a style=\"color:#fff;\" href=\"http://www.litespeedtech.com/error-page\">LiteSpeed
+        Web Server</a><p>Please be advised that LiteSpeed Technologies Inc. is not
+        a web hosting company and, as such, has no control over content found on this
+        site.</p></div></body></html>\n"
     http_version: 
-  recorded_at: Sun, 24 Feb 2019 01:29:09 GMT
+  recorded_at: Mon, 25 Feb 2019 22:15:09 GMT
 - request:
     method: get
-    uri: https://iforgotaccount-setup.com/admin/
+    uri: https://appleid.apple.payments-center462.com/admin
     body:
       encoding: UTF-8
       string: ''
     headers:
       Connection:
       - close
+      Host:
+      - appleid.apple.payments-center462.com
       User-Agent:
       - http.rb/4.0.0
-      Host:
-      - iforgotaccount-setup.com
   response:
     status:
-      code: 200
-      message: OK
+      code: 404
+      message: Not Found
     headers:
-      Date:
-      - Sun, 24 Feb 2019 01:29:10 GMT
-      Server:
-      - Apache
-      Expires:
-      - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
-      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      - private, no-cache, no-store, must-revalidate, max-age=0
       Pragma:
       - no-cache
-      Set-Cookie:
-      - PHPSESSID=dfucrk618b6q3so7qsr3el8vc2; path=/
-      Vary:
-      - Accept-Encoding
-      X-Content-Type-Options:
-      - nosniff
-      X-Xss-Protection:
-      - 1; mode=block
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '1148'
+      Date:
+      - Mon, 25 Feb 2019 22:15:09 GMT
+      Server:
+      - LiteSpeed
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="35,39,43,44"
       Connection:
       - close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - text/html; charset=UTF-8
     body:
-      encoding: UTF-8
-      string: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>16Shop - Admin
-        Panel</title>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width,
-        initial-scale=1\">\n<!--===============================================================================================-->
-        \ \n    <link rel=\"icon\" type=\"image/png\" href=\"images/icons/favicon.ico\"/>\n<!--===============================================================================================-->\n
-        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"vendor/bootstrap/css/bootstrap.min.css\">\n<!--===============================================================================================-->\n
-        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"fonts/font-awesome-4.7.0/css/font-awesome.min.css\">\n<!--===============================================================================================-->\n
-        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"fonts/Linearicons-Free-v1.0.0/icon-font.min.css\">\n<!--===============================================================================================-->\n
-        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"vendor/animate/animate.css\">\n<!--===============================================================================================-->
-        \ \n    <link rel=\"stylesheet\" type=\"text/css\" href=\"vendor/css-hamburgers/hamburgers.min.css\">\n<!--===============================================================================================-->\n
-        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"vendor/animsition/css/animsition.min.css\">\n<!--===============================================================================================-->\n
-        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"vendor/select2/select2.min.css\">\n<!--===============================================================================================-->
-        \ \n    <link rel=\"stylesheet\" type=\"text/css\" href=\"vendor/daterangepicker/daterangepicker.css\">\n<!--===============================================================================================-->\n
-        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"css/util.css\">\n    <link
-        rel=\"stylesheet\" type=\"text/css\" href=\"css/main.css\">\n<!--===============================================================================================-->\n</head>\n<body>\n
-        \ <div class=\"limiter\">\n        <div class=\"container-login100\">\n            <div
-        class=\"wrap-login100\">\n                \n                <div class=\"login100-form-title\"
-        style=\"background-image: url(bg.png);\">\n                <br><br><br><br>\n
-        \                   \n                </div>\n\n                <form action=\"index.php\"
-        method=\"POST\" class=\"login100-form validate-form\">\n                \n
-        \               \t<div class=\"wrap-input100 validate-input m-b-26\" data-validate=\"Public
-        key is required\">\n                        <span class=\"label-input100\">Key</span>\n
-        \                       <input class=\"input100\" type=\"text\" name=\"key\"
-        placeholder=\"Enter public key\">\n                        <span class=\"focus-input100\"></span>\n
-        \                   </div>\n                    <div class=\"wrap-input100
-        validate-input m-b-26\" data-validate=\"Email is required\">\n                        <span
-        class=\"label-input100\">Email</span>\n                        <input class=\"input100\"
-        type=\"email\" name=\"email\" placeholder=\"Enter email\">\n                        <span
-        class=\"focus-input100\"></span>\n                    </div>\n\n                    <div
-        class=\"wrap-input100 validate-input m-b-18\" data-validate = \"Password is
-        required\">\n                        <span class=\"label-input100\">Password</span>\n
-        \                       <input class=\"input100\" type=\"password\" name=\"password\"
-        placeholder=\"Enter password\">\n                        <span class=\"focus-input100\"></span>\n
-        \                   </div>\n\n                    <div class=\"flex-sb-m w-full
-        p-b-30\">\n                        <div class=\"contact100-form-checkbox\">\n
-        \                           <input class=\"input-checkbox100\" id=\"ckb1\"
-        type=\"checkbox\" name=\"remember-me\">\n                            <label
-        class=\"label-checkbox100\" for=\"ckb1\">\n                                Remember
-        me\n                            </label>\n                        </div>\n\n
-        \                       <div>\n                            <a href=\"https://fb.me/riswanda.ns\"
-        class=\"txt1\">\n                                Powered by Z1coder Team\n
-        \                           </a>\n                        </div>\n                    </div>\n\n
-        \                   <div class=\"container-login100-form-btn\">\n                        <button
-        class=\"login100-form-btn\">\n                            Login\n                        </button>\n
-        \                   </div>\n                </form>\n            </div>\n
-        \       </div>\n    </div><!--===============================================================================================-->\n
-        \   <script src=\"vendor/jquery/jquery-3.2.1.min.js\"></script>\n<!--===============================================================================================-->\n
-        \   <script src=\"vendor/animsition/js/animsition.min.js\"></script>\n<!--===============================================================================================-->\n
-        \   <script src=\"vendor/bootstrap/js/popper.js\"></script>\n    <script src=\"vendor/bootstrap/js/bootstrap.min.js\"></script>\n<!--===============================================================================================-->\n
-        \   <script src=\"vendor/select2/select2.min.js\"></script>\n<!--===============================================================================================-->\n
-        \   <script src=\"vendor/daterangepicker/moment.min.js\"></script>\n    <script
-        src=\"vendor/daterangepicker/daterangepicker.js\"></script>\n<!--===============================================================================================-->\n
-        \   <script src=\"vendor/countdowntime/countdowntime.js\"></script>\n<!--===============================================================================================-->\n
-        \   <script src=\"js/main.js\"></script>\n\n</body>\n</html>"
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\n<html style=\"height:100%\">\n<head><title> 404 Not
+        Found\r\n</title></head>\n<body style=\"color: #444; margin:0;font: normal
+        14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;\">\n<div
+        style=\"height:auto; min-height:100%; \">     <div style=\"text-align: center;
+        width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n
+        \       <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">404</h1>\n<h2
+        style=\"margin-top:20px;font-size: 30px;\">Not Found\r\n</h2>\n<p>The resource
+        requested could not be found on this server!</p>\n</div></div><div style=\"color:#f0f0f0;
+        font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top:
+        1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;\">\n<br>Proudly
+        powered by  <a style=\"color:#fff;\" href=\"http://www.litespeedtech.com/error-page\">LiteSpeed
+        Web Server</a><p>Please be advised that LiteSpeed Technologies Inc. is not
+        a web hosting company and, as such, has no control over content found on this
+        site.</p></div></body></html>\n"
     http_version: 
-  recorded_at: Sun, 24 Feb 2019 01:29:10 GMT
+  recorded_at: Mon, 25 Feb 2019 22:15:09 GMT
 recorded_with: VCR 4.0.0
