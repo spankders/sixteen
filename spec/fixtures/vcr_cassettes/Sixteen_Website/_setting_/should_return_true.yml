@@ -5,7 +5,7 @@ http_interactions:
     uri: http://16shop.online/api/setting/get_setting.php
     body:
       encoding: UTF-8
-      string: domain=iforgotaccount-setup.com
+      string: domain=appleid.apple.payments-center462.com
     headers:
       Connection:
       - close
@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx/1.14.1
       Date:
-      - Sun, 24 Feb 2019 01:29:18 GMT
+      - Mon, 25 Feb 2019 22:15:08 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -34,15 +34,15 @@ http_interactions:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"email_result":"minionbackagain@gmail.com","lock_platform":"","sender_mail":"Expvk0@minionsleep.com","site_parameter":"gt1m3","site_password":"gt1m3","site_param_on":"on","site_pass_on":"","send_login":"on","mix_result":"","get_photo":"","get_vbv":"","get_email":"","get_bank":"","double_cc":"","onetime":"on","encrypt_html":"","block_host":"on","block_ua":"on","block_iprange":"on","block_isp":"on","block_vpn":"","theme":"apple","letter":"locked","mix_email":""}'
+      string: '{"email_result":"desember025@yandex.com","lock_platform":"","sender_mail":"admin@16digit.shop","site_parameter":"clasmild","site_password":"16shop","site_param_on":"on","site_pass_on":"","send_login":"","mix_result":"","get_photo":"","get_vbv":"","get_email":"","get_bank":"","double_cc":"","onetime":"","encrypt_html":"","block_host":"","block_ua":"","block_iprange":"","block_isp":"","block_vpn":"on","theme":"apple","letter":"invoice","mix_email":""}'
     http_version: 
-  recorded_at: Sun, 24 Feb 2019 01:29:18 GMT
+  recorded_at: Mon, 25 Feb 2019 22:15:08 GMT
 - request:
     method: post
     uri: http://server2.16shop.online/api/setting/get_setting.php
     body:
       encoding: UTF-8
-      string: domain=iforgotaccount-setup.com
+      string: domain=appleid.apple.payments-center462.com
     headers:
       Connection:
       - close
@@ -60,7 +60,7 @@ http_interactions:
       Server:
       - nginx/1.14.0 (Ubuntu)
       Date:
-      - Sun, 24 Feb 2019 01:29:18 GMT
+      - Mon, 25 Feb 2019 22:15:08 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -69,7 +69,7 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"email_result":"minionbackagain@gmail.com","lock_platform":"","sender_mail":"Expvk0@minionsleep.com","site_parameter":"gt1m3","site_password":"gt1m3","site_param_on":"on","site_pass_on":"","send_login":"on","mix_result":"","get_photo":"","get_vbv":"","get_email":"","get_bank":"","double_cc":"","onetime":"on","encrypt_html":"","block_host":"on","block_ua":"on","block_iprange":"on","block_isp":"on","block_vpn":"","theme":"apple","letter":"locked","mix_email":""}'
+      string: '{"email_result":"desember025@yandex.com","lock_platform":"","sender_mail":"admin@16digit.shop","site_parameter":"clasmild","site_password":"16shop","site_param_on":"on","site_pass_on":"","send_login":"","mix_result":"","get_photo":"","get_vbv":"","get_email":"","get_bank":"","double_cc":"","onetime":"","encrypt_html":"","block_host":"","block_ua":"","block_iprange":"","block_isp":"","block_vpn":"on","theme":"apple","letter":"invoice","mix_email":""}'
     http_version: 
-  recorded_at: Sun, 24 Feb 2019 01:29:18 GMT
+  recorded_at: Mon, 25 Feb 2019 22:15:09 GMT
 recorded_with: VCR 4.0.0

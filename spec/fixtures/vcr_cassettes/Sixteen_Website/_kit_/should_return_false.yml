@@ -23,7 +23,7 @@ http_interactions:
       Content-Length:
       - '795'
       Date:
-      - Mon, 25 Feb 2019 22:15:13 GMT
+      - Mon, 25 Feb 2019 22:15:07 GMT
       Server:
       - LiteSpeed
       Connection:
@@ -41,7 +41,7 @@ http_interactions:
         08:00        -       \n</pre><hr><address>Proudly Served by LiteSpeed Web
         Server at appleid.apple.payments-center462.com Port 80</address>\n</body>\n</html>"
     http_version: 
-  recorded_at: Mon, 25 Feb 2019 22:15:13 GMT
+  recorded_at: Mon, 25 Feb 2019 22:15:07 GMT
 - request:
     method: get
     uri: https://appleid.apple.payments-center462.com/
@@ -65,7 +65,7 @@ http_interactions:
       Content-Length:
       - '796'
       Date:
-      - Mon, 25 Feb 2019 22:15:14 GMT
+      - Mon, 25 Feb 2019 22:15:07 GMT
       Server:
       - LiteSpeed
       Alt-Svc:
@@ -85,5 +85,5 @@ http_interactions:
         08:00        -       \n</pre><hr><address>Proudly Served by LiteSpeed Web
         Server at appleid.apple.payments-center462.com Port 443</address>\n</body>\n</html>"
     http_version: 
-  recorded_at: Mon, 25 Feb 2019 22:15:14 GMT
+  recorded_at: Mon, 25 Feb 2019 22:15:07 GMT
 recorded_with: VCR 4.0.0

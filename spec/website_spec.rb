@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 RSpec.describe Sixteen::Website, :vcr do
-  subject { Sixteen::Website.new("iforgotaccount-setup.com") }
+  subject { Sixteen::Website.new("appleid.apple.payments-center462.com") }
   describe "#sixteen_shop?" do
     it "should return true" do
       result = subject.sixteen_shop?
@@ -26,7 +26,7 @@ RSpec.describe Sixteen::Website, :vcr do
   describe "#admin_panel?" do
     it "should return true" do
       result = subject.admin_panel?
-      expect(result).to eq(true)
+      expect(result).to eq(false)
     end
   end
 
@@ -40,6 +40,13 @@ RSpec.describe Sixteen::Website, :vcr do
   describe "#panel?" do
     it "should return false" do
       result = subject.panel?
+      expect(result).to eq(false)
+    end
+  end
+
+  describe "#kit?" do
+    it "should return false" do
+      result = subject.kit?
       expect(result).to eq(false)
     end
   end

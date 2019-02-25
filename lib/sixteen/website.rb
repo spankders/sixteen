@@ -87,6 +87,20 @@ module Sixteen
       end.first
     end
 
+    def kit?
+      kit != nil
+    end
+
+    def kit
+      @kit ||= [].tap do |out|
+        base_urls.each do |base_url|
+          body = get_body(base_url)
+          matches = (body&.scan(/\>(16Shop-.+\.zip)\</) || []).flatten.compact
+          out << "16shop kit (#{matches.join(',')}): #{base_url}." unless matches.empty?
+        end
+      end.first
+    end
+
     def base_urls
       %w(http https).map { |scheme| "#{scheme}://#{domain}" }
     end
@@ -100,6 +114,7 @@ module Sixteen
         out << { text: admin_panel } if admin_panel?
         out << { text: config } if config?
         out << { text: expired_key } if expired_key?
+        out << { text: kit } if kit?
         out << { text: panel } if panel?
         out << { text: setting } if setting?
       end
