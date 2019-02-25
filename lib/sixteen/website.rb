@@ -11,6 +11,7 @@ module Sixteen
 
     def initialize(domain)
       @domain = domain
+      @cache = {}
     end
 
     def setting
@@ -107,11 +108,15 @@ module Sixteen
     private
 
     def get_body(url)
+      return @cache.dig(url) if @cache.key?(url)
+
       res = HTTP.follow.timeout(3).get(url)
       return nil if res.code != 200
 
+      @cache[url] = res.body.to_s
+
       res.body.to_s
-    rescue HTTP::Error, OpenSSL::SSL::SSLError, Addressable::URI::InvalidURIError => _
+    rescue HTTP::Error, OpenSSL::SSL::SSLError => _
       nil
     end
   end
