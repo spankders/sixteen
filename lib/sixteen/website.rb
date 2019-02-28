@@ -101,6 +101,21 @@ module Sixteen
       end.first
     end
 
+    def invoice?
+      invoice != nil
+    end
+
+    def invoice
+      @invoice ||= [].tap do |out|
+        base_urls.each do |base_url|
+          url = "#{base_url}/invoice.ini"
+          body = get_body(url)
+
+          out << "16shop invoice.ini: #{url}." if body&.include?("EN") && body&.include?("JP")
+        end
+      end.first
+    end
+
     def base_urls
       %w(http https).map { |scheme| "#{scheme}://#{domain}" }
     end
@@ -114,6 +129,7 @@ module Sixteen
         out << { text: admin_panel } if admin_panel?
         out << { text: config } if config?
         out << { text: expired_key } if expired_key?
+        out << { text: invoice } if invoice?
         out << { text: kit } if kit?
         out << { text: panel } if panel?
         out << { text: setting } if setting?
