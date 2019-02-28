@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www-account-appleld-alert.com/panel.php
+    uri: http://www-account-appleld-alert.com/invoice.ini
     body:
       encoding: UTF-8
       string: ''
@@ -19,11 +19,11 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Thu, 28 Feb 2019 23:00:30 GMT
+      - Thu, 28 Feb 2019 23:00:10 GMT
       Server:
       - Apache
       Content-Length:
-      - '326'
+      - '328'
       Connection:
       - close
       Content-Type:
@@ -36,15 +36,15 @@ http_interactions:
         <title>404 Not Found</title>
         </head><body>
         <h1>Not Found</h1>
-        <p>The requested URL /panel.php was not found on this server.</p>
+        <p>The requested URL /invoice.ini was not found on this server.</p>
         <p>Additionally, a 404 Not Found
         error was encountered while trying to use an ErrorDocument to handle the request.</p>
         </body></html>
     http_version: 
-  recorded_at: Thu, 28 Feb 2019 23:00:33 GMT
+  recorded_at: Thu, 28 Feb 2019 23:00:13 GMT
 - request:
     method: get
-    uri: https://www-account-appleld-alert.com/panel.php
+    uri: https://www-account-appleld-alert.com/invoice.ini
     body:
       encoding: UTF-8
       string: ''
@@ -61,11 +61,11 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Thu, 28 Feb 2019 23:00:31 GMT
+      - Thu, 28 Feb 2019 23:00:11 GMT
       Server:
       - Apache
       Content-Length:
-      - '326'
+      - '328'
       Connection:
       - close
       Content-Type:
@@ -78,10 +78,10 @@ http_interactions:
         <title>404 Not Found</title>
         </head><body>
         <h1>Not Found</h1>
-        <p>The requested URL /panel.php was not found on this server.</p>
+        <p>The requested URL /invoice.ini was not found on this server.</p>
         <p>Additionally, a 404 Not Found
         error was encountered while trying to use an ErrorDocument to handle the request.</p>
         </body></html>
     http_version: 
-  recorded_at: Thu, 28 Feb 2019 23:00:34 GMT
+  recorded_at: Thu, 28 Feb 2019 23:00:14 GMT
 recorded_with: VCR 4.0.0
