@@ -129,7 +129,6 @@ module Sixteen
         out << { text: admin_panel } if admin_panel?
         out << { text: config } if config?
         out << { text: expired_key } if expired_key?
-        out << { text: invoice } if invoice?
         out << { text: kit } if kit?
         out << { text: panel } if panel?
         out << { text: setting } if setting?
