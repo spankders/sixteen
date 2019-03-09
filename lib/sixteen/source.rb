@@ -6,7 +6,7 @@ require "uri"
 
 module Sixteen
   class Source
-    KEYWORDS = %w{alert ap cloud forgot id official sigin ver}.freeze
+    KEYWORDS = %w{tune alert ap cloud forgot id official sigin ver}.freeze
     URLSCAN_ENDPOINT = "https://urlscan.io/api/v1/search/?q=PhishTank%20OR%20OpenPhish%20OR%20CertStream-Suspicious&size=2000"
     AYASHIGE_ENDPOINT = "http://ayashige.herokuapp.com/feed"
     OPENPHISH_ENDPOINT = "https://openphish.com/feed.txt"
