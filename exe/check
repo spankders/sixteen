@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+$LOAD_PATH.unshift("#{__dir__}/../lib")
+
+require "sixteen"
+
+domain = ARGV[0]
+
+if domain
+  Sixteen::Monitor.check domain
+else
+  puts "Error: you should give a domain."
+end

@@ -12,7 +12,7 @@ A 16shop tracker.
 
 ## prerequisite
 
-- Ruby `-> 2.5`
+- Ruby: `-> 2.5`
 
 ## install
 
@@ -24,6 +24,14 @@ bundle
 
 ## usage
 
+### check a given domain
+
 ```sh
-bundle exec ruby exe/monitor
+bundle exec exe/check DOMAIN
+```
+
+### check recent suspiciouis URLs
+
+```sh
+bundle exec exe/monitor
 ```
